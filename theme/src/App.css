@@ -1,0 +1,19 @@
+.light{
+  display :flex;
+  justify-content: space-between;
+  width:100vw;
+  height:100vh;
+
+}
+
+.black{
+   display :flex;
+  justify-content: space-between;
+  width:100vw;
+  height:100vh;
+  background-color:black;
+}
+
+#black{
+  color:white;
+}
