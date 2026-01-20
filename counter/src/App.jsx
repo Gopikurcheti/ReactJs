@@ -1,29 +1,28 @@
-import React from "react"
+import React, { Component } from 'react'
 import './App.css'
 
-class App extends React.Component{
+export class App extends Component {
 
   constructor(props){
     super(props);
-
-      this.state={
-        count:0
-      }
+    this.state={
+      count:0
+    }
   }
 
-  myFun =()=>{
+  changeValue = () => {
     this.setState({
-      count: this.state.count + 1
+      count: this.state.count +1
     })
+    
   }
-
-  render(){
-    return(
+  render() {
+    return (
       <>
-        <div className='container'>
-         <button onClick={this.myFun}>You have clicked {this.state.count} times</button>      
-
-        </div>
+      <div className='parent'>
+      <h1>Counter App</h1>
+      <button onClick={this.changeValue}>Yoou have clicked {this.state.count}</button>
+      </div>
       </>
     )
   }

@@ -1,0 +1,168 @@
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heading{
+  color:rgb(6, 152, 168);
+  text-shadow: 3px 3px 5px black, 5px 5px 2px blue, 3px 3px 1px navy ;
+  font-size:62px;
+ 
+}
+
+.parent{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+  border:5px solid coral;
+  padding:20px 4px 20px 4px ;
+  row-gap:20px;
+}
+
+#child1{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  row-gap:5px;
+  justify-content:center;
+  flex-direction:column;
+  padding-left:10px;
+}
+
+#child2{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  row-gap:20px;
+
+}
+
+#text{
+  height:350px;
+  width:350px;
+  text-align:center;
+  vertical-align:middle;
+  border: 1px solid black;
+}
+
+#download-btn{
+  height:45px;
+  padding:2px 5px 2px 5px;
+  width: fit-content;
+  border:none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color:red;
+  color: white;
+  border-radius: 8px;
+  cursor:pointer;
+}
+
+#text-color{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border: 5px solid gray;
+  padding: 10px 0 10px 0; 
+  row-gap:10px; 
+}
+
+#bg-color{
+  display:flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items:center;
+  border: 5px solid gray;
+  padding: 10px 0 10px 0;
+}
+
+#text-color-names{
+  display:flex;
+  flex-wrap:wrap;
+  column-gap:10px;
+}
+
+#sub-heading{
+  font-size: 22px;
+}
+
+#red{
+  height:45px;
+  width: 45px;
+  background-color: red;
+  border:none;
+  cursor:pointer;
+}
+
+#green{
+  height:45px;
+  width: 45px;
+  background-color: green;
+  border:none;
+  cursor:pointer;
+}
+
+#blue{
+  height:45px;
+  width: 45px;
+  background-color: blue;
+  border:none;
+  cursor:pointer;
+}
+
+#yellow{
+  height:45px;
+  width: 45px;
+  background-color: yellow;
+  border:none;
+  cursor:pointer;
+}
+
+#purple{
+  height:45px;
+  width: 45px;
+  background-color: purple;
+  border:none;
+  cursor:pointer;
+}
+
+#fonts{
+  display:flex;
+  column-gap:10px;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 5px solid gray;
+  padding:25px;
+}
+
+#times-new{
+  font-family: 'Times New  Roman', Times, serif;
+  border: 1.5px dashed red;
+  cursor:pointer;
+}
+
+#cursive{
+  font-family: cursive;
+   border: 1.5px dashed red;
+   cursor:pointer;
+}
+
+#verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 1.5px dashed red;
+   cursor:pointer;
+}
+
+#arial{
+  font-family: Arial, Helvetica, sans-serif;
+   border: 1.5px dashed red;
+   cursor:pointer;
+}
+
+#impact{
+   font-family:impact;
+    border: 1.5px dashed red;
+    cursor:pointer;
+}
