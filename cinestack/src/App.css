@@ -1,0 +1,149 @@
+.main{
+  width:100vw;
+  height:100vh;
+}
+
+#main{
+  overflow:hidden;
+  
+}
+
+
+#not-allowed{
+  pointer-events:none;
+}
+
+body{
+   background-color:rgb(41, 38, 38);
+}
+
+.first{
+  padding:0 30px;
+  display:flex;
+  position:fixed;
+  width:100vw;
+  z-index:1000;
+  border-bottom: 2px solid white;
+  background-color:rgb(41, 38, 38);
+  align-items:center;
+  justify-content: space-between;
+}
+
+#watchlist-btn{
+  height:45px;
+  width:fit-content;
+  padding:8px;
+  background-color:rgb(255,0,255, 0.609);;
+  color:white;
+  font-weight:700;
+  font-size:18px;
+  border-radius:12px;
+  outline:none;
+  border:none;
+  cursor:pointer;
+}
+
+#watchlist-btn:hover{
+   transform:scale(1.06);
+}
+
+hr{
+  border:none;
+  height:2px;
+  background-color:white;
+}
+
+.second{
+  display:flex; 
+  padding-bottom: 10px;
+  flex-wrap:wrap;
+  column-gap:20px;
+  row-gap:15px;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.third{
+  display:flex;
+  flex-wrap:wrap;
+  column-gap:10px;
+  row-gap:15px;
+  align-items:center;
+  justify-content:space-around;
+}
+
+
+
+#movie{
+  padding-top:5px;
+  width:200px;
+  height:230px;
+
+  color:white;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+
+  box-shadow: 3px 3px 8px white, 5px 5px 10px rgb(205, 190, 190) ;
+}
+
+#watchlist{
+  display:flex;
+  align-items:center;
+}
+
+#watchlist-image{
+  cursor:pointer;
+}
+
+
+
+.selected-movies{
+  display:flex;
+  width:50%;
+  justify-content: space-between;
+  background-color:white;
+  color:white;
+  column-gap:10px;
+  align-items: center;
+}
+
+
+.selected{
+  display:none;
+}
+
+
+.visible{
+  overflow:hidden;
+  width:350px;
+  height:520px;
+  padding:5px;
+  background-color:rgb(255,0,255, 0.609);
+  position:absolute;
+  top:56%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  box-shadow:5px 5px 3px black;
+  border-radius:20px;
+
+  display:flex;
+  flex-direction:column;
+  row-gap:10px;
+  align-items:end;
+  justify-content:right;
+}
+
+#close-btn{
+  cursor:pointer;
+
+}
+
+#s-movies{
+  color:white;
+  width:100%;
+  display:flex;
+  column-gap:15px;
+  padding:2.5px 0 2.5px 10px;
+  align-items:center; 
+}
